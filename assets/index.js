@@ -1,0 +1,5 @@
+export { default as Logo } from "./Logo.png"
+export { default as Landing } from "./Landing.jpg"
+export { default as avatar } from "./avatar.png"
+export { default as ArticleCard1 } from "./ArticleCard1.png"
+export { default as InfoCard1 } from "./InfoCard1.png"

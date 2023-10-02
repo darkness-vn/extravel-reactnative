@@ -1,6 +1,8 @@
 {
+  "name":"extravel_react_native",
+  "displayName": "Extravel",
   "expo": {
-    "name": "extravel",
+    "name": "extravel_react_native",
     "slug": "extravel",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -11,6 +13,16 @@
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
+
+    "plugins": [
+      [
+        "@rnmapbox/maps",
+        {
+          "RNMapboxMapsImpl": "mapbox",
+          "RNMapboxMapsDownloadToken": "pk.eyJ1IjoiZXhvdHJhaWxzIiwiYSI6ImNsODJnemJ5bTBweGgzd21rM3NkZHg1dTcifQ.Z5S3APmFZB4YZ19vEHlXwA"
+        }
+      ]
+    ],
     "assetBundlePatterns": [
       "**/*"
     ],
